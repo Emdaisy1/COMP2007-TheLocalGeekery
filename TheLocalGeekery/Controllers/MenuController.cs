@@ -10,6 +10,8 @@ using System.Web.Mvc;
 using TheLocalGeekery.Models;
 
 //Author: Emma Hilborn - 200282755
+//File: MenuController.cs
+//Website: http://thelocalgeekery.azurewebsites.net/
 //Date: July 31, 2016
 //Version: 1.0.0
 //Description: The controller for the menu view pages, index (being the menu) and details

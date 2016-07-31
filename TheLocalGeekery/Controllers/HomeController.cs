@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 
 //Author: Emma Hilborn - 200282755
+//File: HomeController.cs
+//Website: http://thelocalgeekery.azurewebsites.net/
 //Date: July 31, 2016
 //Version: 1.0.0
 //Description: The controller for the "Home" views (index & contact)

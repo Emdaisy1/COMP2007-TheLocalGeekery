@@ -5,6 +5,13 @@ using System.Linq;
 using System.Web;
 using TheLocalGeekery.Models;
 
+//Author: Emma Hilborn - 200282755
+//File: MenuItem.cs
+//Website: http://thelocalgeekery.azurewebsites.net/
+//Date: July 31, 2016
+//Version: 1.0.0
+//Description: Page to define the MenuItem model
+
 namespace TheLocalGeekery.Models
 {
     public class MenuItem

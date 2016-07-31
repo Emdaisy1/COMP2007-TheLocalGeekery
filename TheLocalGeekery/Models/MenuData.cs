@@ -5,6 +5,8 @@ using System.Web;
 using System.Data.Entity;
 
 //Author: Emma Hilborn - 200282755
+//File: MenuData.cs
+//Website: http://thelocalgeekery.azurewebsites.net/
 //Date: July 31, 2016
 //Version: 1.0.0
 //Description: Page to load the menu data into the database
