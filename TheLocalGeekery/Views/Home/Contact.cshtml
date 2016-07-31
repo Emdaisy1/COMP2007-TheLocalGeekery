@@ -1,13 +1,13 @@
 ﻿@*Author: Emma Hilborn - 200282755
-Date: July 31, 2016
-Version: 1.0.0
-Description: Contact page with business hours, location, and contact addresses (email & phone)*@
+    Date: July 31, 2016
+    Version: 1.0.0
+    Description: Contact page with business hours, location, and contact addresses (email & phone)*@
 
 @{
     ViewBag.Title = "Contact - The Local Geekery";
 }
 
-<div class="jumbotron">
+<div class="row jumbotron">
     <h1 class="main-title">The Local Geekery</h1>
     <h2 class="sub-title">Contact Us</h2>
     <div class="col-md-6">
@@ -19,21 +19,27 @@ Description: Contact page with business hours, location, and contact addresses (
             <li>Sun: CLOSED</li>
         </ul>
         <br />
+        <h3>Social</h3>
+        <p>Check us out on Facebook, Twitter, or Instagram!</p>
+        <a href="http://www.facebook.com/thelocalgeekeryschomberg"><img src="~/Assets/images/FB.png" alt="Facebook icon"></a>
+        <a href="http://www.twitter.com/thelocalgeekeryschomberg"><img src="~/Assets/images/Twitter.png" alt="Twitter icon"></a>
+        <a href="http://www.instagram.com/thelocalgeekeryschomberg"><img src="~/Assets/images/Insta.png" alt="Instagram icon"></a>
+        <br />
         <h3>Location & Phone</h3>
-    <address>
-        17000 Concession Road 10<br />
-        Schomberg, ON  L0G 1T0<br />
-        <abbr title="Phone">P:</abbr>
-        905-939-6332
-    </address>
+        <address>
+            17000 Concession Road 10<br />
+            Schomberg, ON  L0G 1T0<br />
+            <abbr title="Phone">P:</abbr>
+            905-939-6332
+        </address>
         <br />
         <h3>Email:</h3>
-    <address>
-        <strong>General inquiries:</strong>   <a href="mailto:inquiries@thelocalgeekery.com">inquiries@thelocalgeekery.com</a><br />
-        <strong>Menu suggestions:</strong> <a href="mailto:menu@thelocalgeekery.com">menu@thelocalgeekery.com</a>
-    </address>
+        <address>
+            <strong>General inquiries:</strong>   <a href="mailto:inquiries@thelocalgeekery.com">inquiries@thelocalgeekery.com</a><br />
+            <strong>Menu suggestions:</strong> <a href="mailto:menu@thelocalgeekery.com">menu@thelocalgeekery.com</a>
+        </address>
     </div>
-    <div class="col-lg-offset-6">
+    <div class="col-md-6">
         <div class="thumbnail">
             <img src="~/Assets/images/googleMaps.jpg" alt="Google Map view">
             <div class="caption">

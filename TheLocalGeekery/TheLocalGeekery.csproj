@@ -193,9 +193,11 @@
     <Content Include="Assets\images\cheesyBunsIcon.jpg" />
     <Content Include="Assets\images\chocoFrogsFull.jpg" />
     <Content Include="Assets\images\chocoFrogsIcon.jpg" />
+    <Content Include="Assets\images\FB.png" />
     <Content Include="Assets\images\fishFingersCustardFull.jpg" />
     <Content Include="Assets\images\fishFingersCustardIcon.jpg" />
     <Content Include="Assets\images\googleMaps.JPG" />
+    <Content Include="Assets\images\Insta.png" />
     <Content Include="Assets\images\interior1.JPG" />
     <Content Include="Assets\images\interior2.JPG" />
     <Content Include="Assets\images\lembasBreadFull.jpg" />
@@ -210,6 +212,7 @@
     <Content Include="Assets\images\RomulanAleIcon.jpg" />
     <Content Include="Assets\images\turkishDelightFull.jpg" />
     <Content Include="Assets\images\turkishDelightIcon.jpg" />
+    <Content Include="Assets\images\Twitter.png" />
     <Content Include="Assets\images\YetosSoupFull.jpg" />
     <Content Include="Assets\images\YetosSoupIcon.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
