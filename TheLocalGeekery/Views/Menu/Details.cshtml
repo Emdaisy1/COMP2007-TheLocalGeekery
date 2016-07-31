@@ -1,19 +1,32 @@
-﻿@using TheLocalGeekery.Models
+﻿@*Author: Emma Hilborn - 200282755
+Date: July 31, 2016
+Version: 1.0.0
+Description: Page to show the details of the selected menu item*@
+
+@using TheLocalGeekery.Models
 @model MenuItem
 
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Menu item: @Model.ItemName</h2>
-<ul>
-    <li>
+<div class="row jumbotron">
+    <h1 class="main-title">The Local Geekery</h1>
+    <h2 class="sub-title">Menu item: @Model.ItemName</h2>
+    <br />
+    <div class="col-md-4 item-image">
         <img src="@Model.ItemImageUrl" alt="@Model.ItemName" />
-    </li>
-    <li>
-        Description: @Model.ItemDescription
-    </li>
-    <li>
-        Price: $ @Model.ItemPrice
-    </li>
-</ul>
+    </div>
+    <div class="col-md-8 item-summary">
+        <p>
+            <b>Description:</b> @Model.ItemDescription
+            <br />
+            <b>Price:</b> $ @Model.ItemPrice
+        </p>
+        <div class="menu-button">
+            <button type="button" class="btn btn-lg btn-default">@Html.ActionLink("Back to Menu", "Index", "Menu")</button>
+        </div>
+    </div>
+</div>
+
+

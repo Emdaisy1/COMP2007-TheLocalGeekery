@@ -4,6 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
+//Author: Emma Hilborn - 200282755
+//Date: July 31, 2016
+//Version: 1.0.0
+//Description: Page to load the menu data into the database
+
 namespace TheLocalGeekery.Models
 {
     public class MenuData : DropCreateDatabaseIfModelChanges<MenuItemEntities>

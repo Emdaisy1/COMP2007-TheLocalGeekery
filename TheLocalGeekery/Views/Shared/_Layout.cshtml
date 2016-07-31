@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@*Author: Emma Hilborn - 200282755
+Date: July 31, 2016
+Version: 1.0.0
+Description: Layout page controlling header and footer across all pages*@
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,6 +14,7 @@
 
 </head>
 <body>
+    @*Nav bar*@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -21,17 +27,19 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Menu", "Index", "Menu")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @*Set active tab based on the value of the viewbag item passed to the view*@
+                    <li class="@(ViewBag.Current == "Home" ? "active" : "")">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="@(ViewBag.Current == "Menu" ? "active" : "")">@Html.ActionLink("Menu", "Index", "Menu")</li>
+                    <li class="@(ViewBag.Current == "Contact" ? "active" : "")">@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container body-content">
+        @*Load the main view/body*@
         @RenderBody()
-        <hr />
     </div>
+    @*Footer for all pages*@
     <div id="footer">
         <footer>
             <p style="padding-left: 10px;">&copy; @DateTime.Now.Year - The Local Geekery</p>

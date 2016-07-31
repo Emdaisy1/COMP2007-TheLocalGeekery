@@ -1,23 +1,30 @@
-﻿@{
+﻿@*Author: Emma Hilborn - 200282755
+Date: July 31, 2016
+Version: 1.0.0
+Description: Main page, displaying a greeting, two shots of the interior, and a link to the menu*@
+
+@{
     ViewBag.Title = "Home - The Local Geekery";
 }
 
 <div class="jumbotron">
     <h1 class="main-title">The Local Geekery</h1>
     <p class="lead">
-             Welcome to The Local Geekery's webpage! Located just outside of Schomberg, The Local Geekery is a small lunch café catering to
+        Welcome to The Local Geekery's webpage! Located just outside of Schomberg, The Local Geekery is a small lunch café catering to
         geeks of all fandoms.
         <br />
         <br />
-             With a casual, relaxed environment, you'll feel right at home discussing the latest episode of your favorite TV with your friends,
+        With a casual, relaxed environment, you'll feel right at home discussing the latest episode of your favorite TV with your friends,
         or bunkering down on your own, novel in hand.
         <br />
         <br />
-             Menu items are limited and cycle regularly. If you don't see something from your fandom this month, you can check back next month.
+        Menu items are limited and cycle regularly. If you don't see something from your fandom this month, you can check back next month.
         We also take suggestions if you have an idea of geeky eat or drink you'd like us to attempt!
         <br />
         <br />
-        <button type="button" class="btn btn-lg btn-default menu-button">@Html.ActionLink("Check out our Menu!", "Index", "Menu")</button>
+        <div class="menu-button">
+            <button type="button" class="btn btn-lg btn-default">@Html.ActionLink("Check out our Menu!", "Index", "Menu")</button>
+        </div>
     </p>
 
     <div class="row">

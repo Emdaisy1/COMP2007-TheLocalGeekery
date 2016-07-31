@@ -1,4 +1,6 @@
-﻿body {
+﻿/*Default css & custom css (from .jumbotron down)*/
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -37,5 +39,29 @@ textarea {
 }
 
 .menu-button {
-    position: center;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.main-title {
+   text-align: center;
+}
+
+.sub-title {
+   text-align: center;
+}
+
+a {
+   color: rgb(77, 51, 25);
+}
+
+a.hover {
+    rgb(39, 26, 12);
 }
