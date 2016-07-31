@@ -22,3 +22,20 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.jumbotron {
+    background-color:tan;
+}
+
+#footer {
+    position: relative;
+    clear: both;
+    height: 20px;
+    margin-top: -20px;
+    color: rgb(157, 157, 157);
+    background-color: rgb(51, 51, 51);
+}
+
+.menu-button {
+    position: center;
+}

@@ -1,0 +1,19 @@
+﻿@using TheLocalGeekery.Models
+@model MenuItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Menu item: @Model.ItemName</h2>
+<ul>
+    <li>
+        <img src="@Model.ItemImageUrl" alt="@Model.ItemName" />
+    </li>
+    <li>
+        Description: @Model.ItemDescription
+    </li>
+    <li>
+        Price: $ @Model.ItemPrice
+    </li>
+</ul>
