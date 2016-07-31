@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace TheLocalGeekery.Models
 {
-    public class MenuData : DropCreateDatabaseAlways<MenuItemEntities>
+    public class MenuData : DropCreateDatabaseIfModelChanges<MenuItemEntities>
         
     {
         protected override void Seed(MenuItemEntities context)
